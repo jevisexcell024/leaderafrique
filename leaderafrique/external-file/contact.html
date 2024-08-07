@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/css/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+    
+        <div class="differ">
+        <li><a href="#" class="move-left">Menu</a></li>
+        </div>
+        
+        <li><a href= "/index.html" class="disc">Home</a></li>
+        <li><a href= "/external-file/about.html">About</a></li>
+        <li><a href= "/external-file/program.html">Programs</a></li>
+        <li><a href= "#">Blog</a></li>
+        <li><a href= "/external-file/gallery.html">Gallery</a></li>
+        <li><a href= "/external-file/contact.html">Contact</a></li>
+            <div class="other-links">
+              <div class="line"></div>
+              <li><a href="#">Take an Intelligence Type Test<i class="fa-sharp fa-regular fa-up-right"></i></a></li>
+              <li><a href="#">Take a Career Path Test</a></li>
+              <li><a href="#">Download Our latest Impact Report</a></li>
+             </div>
+      </ul>
+      <ul>
+        <li><a href="#" class="movin-up-in" style="color: #000;">LeaderAfrique
+        </a></li>
+        <li class="hideOnMobile"><a href="#" style="color: #000;">Home</a></li>
+        <li class="hideOnMobile"><a href="#" style="color: #000;">About</a></li>
+        <li class="hideOnMobile"><a href="#" style="color: #000;">Programs</a></li>
+        <li class="hideOnMobile"><a href="#" style="color: #000;">Blog</a></li>
+        <li class="hideOnMobile"><a href="#" style="color: #000;">Gallery</a></li>
+            <li class="hideOnMobile"><a href="#" style="color: #000;">Contact</a></li>
+            
+             <div class="dont-move">
+              <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+    
+             </div>
+            
+      </ul>
+    </nav>
+    <section class="Project">
+         <!--Landing page-->
+        <div class="main">
+             <h1 class="work-main">We would love to work with you. </h1>
+        </div>
+       
+      <!--Forms-->
+      <section class="Forms">
+         <h1>Book a one on one with us below</h1>
+          <form>
+            <input type="text" id="fname" name="fname" placeholder="Your Name">
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <input type="number" id="number" name="number" placeholder="Your Phone Number">
+            <input type="date" id="date" name="date" placeholder="07/02/2024">
+           <p>
+            <input type="time" id="time"><select name="time" id="time">
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+           </p> 
+            <input type="text" id="message" placeholder="Your Message" style="height: 100px;">
+
+            <button>Book Meeting</button>
+          </form>
+      </section> 
+
+     
+      <section class="Contact">
+                <div class="footer">
+                  <p><a href="#" style="color: rgb(42, 7, 66);">LeadAfrique International</a></p>
+                  <p>Greatness House, #432</p>
+                  <p>Lame Dwaahe Street,SHC Estates, Adenta</p>
+                  <p>Housing Down, Accra, Ghana</p>
+                  <p class="number">+233 554 312557 | +233 249 177758</p>
+                  <p><a href="#">ask@leadafrique.org</a></p>
+                  
+                  <div class="social-media">
+                    <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                   </div>
+                </div>
+              
+      </section>
+      <div class="map">
+        
+      </div>
+    </section>
+    <script src="/js/index.js"></script>
+
+    
+</body>
+</html>
