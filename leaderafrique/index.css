@@ -1366,3 +1366,40 @@ background-size: cover;
     margin-left: 130px;
 
 }
+.empower-women{
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.card-women{
+    height: 300px;
+    width: 450px;
+    border-radius: 14px;
+    background: #00ffff;
+}
+.hash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+.hash-text{
+    margin-top: 70px;
+}
+.give{
+margin-top: 20px;
+font-size: 1.2rem;
+}
+.africa{
+margin-top: 20px;
+font-size: 1.2rem;
+margin-left: -30px;
+}
+.politics{
+    margin-top: 20px;
+    font-size: 1.2rem;
+
+}
